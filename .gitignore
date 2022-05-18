@@ -1,7 +1,4 @@
-### Example user template template
-### Example user template
-
-# IntelliJ project files
+# ignore project files
 .idea
 *.iml
 out
