@@ -80,7 +80,7 @@ exchanges also offer lower commissions for trading between cryptocurrencies rath
 timeframe was selected for its volatility and difficulty due to the May 2021 crash. Some key metrics given 
 below.
 ```
-Key metrics on close price
+Indicators on close price
 _________________________________________________________________
  Standard deviation from mean: 21.8 %
  1st percentile of 5min percentage changes : -0.967 %
