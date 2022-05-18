@@ -309,10 +309,10 @@ excessive orders and ensures compliance of order placements with the exchange.
 ### Strategy Optimisation
 Work in progress.
 
-The strategy is profitable on the backtest, however, from the results presented in Strategy Performance, 
-some key metrics expose flaws in the strategy. Flaws include a high drawdown and high variance of the rate of orders 
-executed. Bettering the performance of the strategy can also be achieved by applying additional technical indicators or 
-by further adjusting those already being applied.
+The strategy is profitable on the backtest, however, some key metrics expose flaws in the strategy. Flaws 
+include a high drawdown and high variance of the rate of orders executed. Bettering the performance of the 
+strategy can also be achieved by applying additional technical indicators or by further adjusting those already being 
+applied.
 
 On drawdown, the maximum over the 6-month period is 33.78% which is high. This happened momentarily during the month of 
 may when BTC price dropped by over 40% in 1 week. To overcome this flaw, a stop criteria could be added to the strategy
