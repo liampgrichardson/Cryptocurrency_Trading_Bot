@@ -39,7 +39,7 @@ class ScalpingStrategy(bt.Strategy):
 
     def notify_order(self, order):
         """
-        Method gets called when an order is executed
+        Method gets called when an order is placed
         """
         if order.status in [order.Submitted, order.Accepted]:
             # Buy/Sell order submitted/accepted to/by broker - Nothing to do
