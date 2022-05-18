@@ -184,7 +184,7 @@ low complexity and time to train.
 ### Strategy Performance
 The strategy was back-tested on the Bitcoin-Tether (BTC-USDT) pair for the first 6 months of 2021, that is from the
 beginning of january to the end of june 2021. The performance of the strategy is expressed as the ROI over the 
-timeframe. The table below shows the result of the backtest, result of a buy and hold benchmark and the percentage 
+timeframe. The table below shows the result of the backtest, result of a buy and hold benchmark given the percentage 
 change of the value of Bitcoin.
 
 <img src="images/6monthROI.jpg" alt="drawing" width="1000"/>
