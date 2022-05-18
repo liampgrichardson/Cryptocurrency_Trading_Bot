@@ -268,13 +268,13 @@ def next():
 ```
 
 The value of `tis_result` is set by different criteria met on several technical indicators. Technical indicators 
-used for this strategy in addition to the RNN include fast moving averages, slow moving averages, the relative strength 
-index, and rolling volatility by standard deviation.
+used for this strategy in addition to the RNN include fast moving averages, slow moving averages, and rolling 
+volatility measures such as standard deviation.
 ```python
 def get_indicators_result():
-    if buy_condition_MAs() and buy_condition_RSI() and buy_condition_SD():
+    if buy_condition_MAs() and buy_condition_SD():
         return "Buy"
-    elif sell_condition_MAs() and sell_condition_RSI() and sell_condition_SD():
+    elif sell_condition_MAs() and sell_condition_SD():
         return "Sell"
     ...
 ```
@@ -285,9 +285,9 @@ by the method which takes into account additional metrics such as available cash
 ```python
 def get_buy_quantity():
     ...
-    a, b, c = buy_factor_MAs(), buy_factor_RSI(), buy_factor_SD()
-    d, e = available_cash(), position_values()
-    quantity = weight_function(a, b, c, d, e)
+    a, b = buy_factor_MAs(), buy_factor_SD()
+    c, d = available_cash(), position_values()
+    quantity = weight_function(a, b, c, d)
     return quantity
 ```
 
@@ -303,16 +303,14 @@ def next():
     ...
 ```
 
-The threshold quantities set the resolution of the dynamic open position, serves to reduce commissions by blocking 
+The threshold quantities set the resolution of the dynamic open position, serve to reduce commissions by blocking 
 excessive orders and ensures compliance of order placements with the exchange.
 
 ### Strategy Optimisation
 Work in progress.
 
 The strategy is profitable on the backtest, however, some key metrics expose flaws in the strategy. Flaws 
-include a high drawdown and high variance of the rate of orders executed. Bettering the performance of the 
-strategy can also be achieved by applying additional technical indicators or by further adjusting those already being 
-applied.
+include a high drawdown and high variance of the rate of orders executed.
 
 On drawdown, the maximum over the 6-month period is 33.78% which is high. This happened momentarily during the month of 
 may when BTC price dropped by over 40% in 1 week. To overcome this flaw, a stop criteria could be added to the strategy
@@ -323,6 +321,8 @@ during the 6-month backtest period, the rate of orders executed drops significan
 sparsely distributed buy and sell indicators in certain months shown in the backtrader plot. For example in april only 
 91 orders were executed whereas in june 193 orders were executed. Reasons for this inconsistency include changes in
 volatility of BTC price, accuracy of the RNN, miscalculations of the buy or sell quantities.
+
+Applying additional technical indicators, such as the relative strength, may also improve performance.
 
 <br/>
 
