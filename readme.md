@@ -202,8 +202,7 @@ orders. Buy and sell indicators can be seen in the figure below.
 
 The figure above is an output plot from the Backtrader platform which uses Matplotlib. The top subplot shows the values
 of open positions and cash positions during execution of the strategy, in blue is the portfolio value, in red is the
-cash position. The middle subplot shows summary of trades, or more importantly when the open position is closed during 
-execution of the strategy. The last and main subplot shows the buy and sell indicators on top of the BTC-USDT pair.
+cash position. The second and main subplot shows the buy and sell indicators on top of the BTC-USDT pair.
 
 Running the strategy on individual months shows that the strategy still outperforms the pair.
 
