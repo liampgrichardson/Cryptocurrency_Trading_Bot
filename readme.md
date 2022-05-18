@@ -5,7 +5,8 @@
 [![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/downloads/release/python-370/)
 [![Last Commit](https://img.shields.io/badge/status-backtested-brightgreen)]()
 [![Last Commit](https://img.shields.io/badge/last%20commit-may%202022-orange)]()
-> A strategy and system for automated trading of cryptocurrencies.
+> A strategy and system for automated trading of cryptocurrencies. <br/>
+> Jump to: [Strategy Performance](#Strategy-Performance)
 
 <br/>
 <p align="left">
@@ -25,7 +26,7 @@
 ## General Information
 This repository contains the summary of the development of an automated trading system for cryptocurrencies.
 The purpose of this work is to deploy a working, profitable trading system. This presentation highlights the 
-design, backtesting, live testing and live deployment of the system.
+design, backtest, live test and live deployment of the system.
 
 The strategy developed is classed as a day-trading scalping strategy where the aim is to generate small positive
 returns frequently over a large number of orders and trades.
