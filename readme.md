@@ -90,7 +90,7 @@ _________________________________________________________________
 The high volatility of the pair is shown by the standard deviation of the price of Bitcoin against USD, and by 
 the values of the price's 5-min percentage changes. The 1st and 99th percentiles of 5 min percentage changes
 are around minus and plus 1 percent, meaning that over the 6-month timeframe, around 1 in 100 5-min periods saw a 
-1 percent increase or decrease in price.
+1 percent or greater increase or decrease in price.
 
 <br/>
 
