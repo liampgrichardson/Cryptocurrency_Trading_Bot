@@ -165,11 +165,11 @@ if __name__ == '__main__':
     # Set our desired cash start
     cerebro.broker.setcash(1000.0)
 
-    # Set the commission
-    cerebro.broker.setcommission(commission=0.001)
-
     # Plugin for cryptocurrencies allowing fractional order sizes
     cerebro.broker.addcommissioninfo(CommInfoFractional())
+
+    # Set the commission
+    cerebro.broker.setcommission(commission=0.001)
 
     # Observers
     cerebro.addobserver(bt.observers.DrawDown)
