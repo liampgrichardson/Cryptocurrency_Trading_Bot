@@ -6,7 +6,7 @@
 [![Last Commit](https://img.shields.io/badge/status-backtested-brightgreen)]()
 [![Last Commit](https://img.shields.io/badge/last%20commit-may%202022-orange)]()
 > A neural network assisted strategy and system for automated trading of cryptocurrencies. <br/>
-> Jump to: [Strategy Performance](#Strategy)
+> Jump to: [Strategy Performance](#Strategy) <br/>
 > Preview web app: [here](http://18.170.91.234:8050/)
 
 <br/>
