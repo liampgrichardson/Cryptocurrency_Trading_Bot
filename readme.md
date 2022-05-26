@@ -98,8 +98,9 @@ are around minus and plus 1 percent, meaning that over the 6-month timeframe, ar
 ## Neural Network
 ### Data Selection
 A subset of the historical data is used for training and validation of the neural network. In the current example the 
-subset used for training is data from the first two weeks of january 2021, that is 01-01-2021 to 14-01-2021. The figures 
-below shows the close prices (left) and volumes traded (right) on 10 minute intervals from 01-01-2021 to 14-01-2021.
+subset used for training is data from the last two weeks of December 2020, that is 17-12-2020 to 31-12-2020. The figures 
+below shows the close prices (left) and volumes traded (right) on 1 minute intervals sub-sampled from 17-12-2020 to 
+31-12-2020.
 
 <img src="images/train_val_close.png" alt="drawing" width="400"/> <img src="images/train_val_volume.PNG" alt="drawing" width="400"/>
 
@@ -116,7 +117,7 @@ The figure below shows the processed training and validation target values.
 <img src="images/train_val_processed.png" alt="drawing" width="400"/>
 
 The x axis no longer shows time as the training and validation data is shuffled, the cumulative number of samples is 
-displayed instead, there are 19519 training data-points and 4831 validation data-points. The y axis no longer shows
+displayed instead, there are 16983 training data-points and 4197 validation data-points. The y axis no longer shows
 the close price as the data is processed, the processed target values are shown instead.
 Data processing was performed in part with stacked transformers and scalers using pipline objects from Scikit-Learn. 
 
@@ -174,7 +175,7 @@ The network output against targets for the validation dataset is shown in the fi
 
 <img src="images/val_y.png" alt="drawing" width="400"/>
 
-Of the total 4831 validation data-points the first 300 are displayed. This shows the general behavior of the network 
+Of the total 4197 validation data-points the first 300 are displayed. This shows the general behavior of the network 
 compared against the targets of the validation dataset. This network is still able to generalise well given its 
 low complexity and time to train.
 
