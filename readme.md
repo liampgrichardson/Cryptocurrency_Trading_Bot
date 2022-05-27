@@ -7,7 +7,7 @@
 [![Last Commit](https://img.shields.io/badge/last%20commit-may%202022-orange)]()
 > A neural network assisted strategy and system for automated trading of cryptocurrencies. <br/>
 > Jump to: [Strategy Performance](#Strategy) <br/>
-> Go to: [Web app preview](http://18.170.91.234:8050/)
+> Go to: [Web app (preview)](http://18.170.91.234:8050/)
 
 <br/>
 <p align="left">
@@ -270,9 +270,9 @@ def next():
         ...
 ```
 
-The value of `tis_result` is set by different criteria met on several technical indicators. Technical indicators 
-used for this strategy in addition to the RNN include fast moving averages, slow moving averages, and rolling 
-volatility measures such as standard deviation.
+The value returned by `get_indicators_result()` is set by different criteria met on several technical indicators. 
+Technical indicators used for this strategy in addition to the RNN include fast moving averages, slow moving averages, 
+and rolling volatility measures such as standard deviation.
 ```python
 def get_indicators_result():
     if buy_condition_MAs() and buy_condition_SD():
