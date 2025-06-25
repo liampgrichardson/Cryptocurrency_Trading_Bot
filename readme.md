@@ -7,8 +7,8 @@
 [![Last Commit](https://img.shields.io/badge/last%20commit-may%202022-orange)]()
 > A neural network assisted strategy and system for automated trading of cryptocurrencies. <br/>
 > Jump to: [Strategy Performance](#Strategy) <br/>
-> Go to: [web app](http://52.215.148.164)
-> Go to: [front-end codebase](https://github.com/liampgrichardson/TradingApp-Frontend)
+> Go to: [web app](http://52.215.148.164) <br/>
+> Go to: [front-end codebase](https://github.com/liampgrichardson/TradingApp-Frontend) <br/>
 > Go to: [back-end codebase](https://github.com/liampgrichardson/freqtrade)
 
 <br/>
