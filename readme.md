@@ -9,7 +9,7 @@
 > Jump to: [Strategy Performance](#Strategy) <br/>
 > Go to: [web app](http://52.215.148.164) (please get in touch for Username and Password)<br/>
 > Go to: [front-end codebase](https://github.com/liampgrichardson/TradingApp-Frontend) <br/>
-> Go to: [back-end codebase](https://github.com/liampgrichardson/freqtrade)
+> Go to: [back-end codebase](https://github.com/liampgrichardson/TradingApp-Backend)
 
 <br/>
 <p align="left">
